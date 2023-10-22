@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_layout_featured_components",
+  "info": {
+    "displayName": "featuredComponent",
+    "icon": "server"
+  },
+  "options": {},
+  "attributes": {
+    "course": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::course.course"
+    }
+  }
+}

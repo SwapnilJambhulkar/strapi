@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_layout_pageinfos",
+  "info": {
+    "displayName": "Pageinfo",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    },
+    "cover": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seoinformation"
+    }
+  }
+}
